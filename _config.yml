@@ -82,6 +82,9 @@ markdown:
   smartLists: true
   smartypants: true
 
+plugins:
+ - hexo-math
+
 
 # Header
 menu:
