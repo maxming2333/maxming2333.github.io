@@ -69,7 +69,9 @@ theme: yilia
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
-  type:
+  type: git
+  repository: https://github.com/maxming2333/maxming2333.github.io.git
+  branch: master
 
 markdown:
   gfm: true
