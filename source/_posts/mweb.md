@@ -1,4 +1,6 @@
-# Markdown 语法和 MWeb 写作使用说明
+---
+title: Markdown 语法和 MWeb 写作使用说明
+---
 
 ## Markdown 的设计哲学
 
