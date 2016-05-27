@@ -5,7 +5,7 @@
   "hexo": {
     "version": "3.2.0"
   },
-  "dependencies": {
+  "devDependencies": {
     "hexo": "^3.2.0",
     "hexo-deployer-git": "^0.1.0",
     "hexo-deployer-heroku": "^0.1.0",
@@ -21,5 +21,11 @@
     "hexo-renderer-marked": "^0.2.10",
     "hexo-renderer-stylus": "^0.2.3",
     "hexo-server": "^0.2.0"
+  },
+  "dependencies": {
+    "hexo-deployer-git": "^0.1.0",
+    "hexo-deployer-heroku": "^0.1.0",
+    "hexo-deployer-openshift": "^0.1.0",
+    "hexo-deployer-rsync": "^0.1.1"
   }
 }
