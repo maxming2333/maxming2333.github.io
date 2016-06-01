@@ -72,7 +72,7 @@
 						<li>Tags</li>
 						
 						
-						<li>Über</li>
+						<li>A propos</li>
 						
 					</ul>
 				</div>
@@ -181,72 +181,11 @@
 
       <div class="body-wrap">
   
-    <article id="post-mac" class="article article-type-post" itemscope itemprop="blogPost">
-  
-    <div class="article-meta">
-      <a href="/2016/05/27/mac/" class="article-date">
-  	<time datetime="2016-05-27T09:33:47.000Z" itemprop="datePublished">2016-05-27</time>
-</a>
-    </div>
-  
-  <div class="article-inner">
-    
-      <input type="hidden" class="isFancy" />
-    
-    
-      <header class="article-header">
-        
-  
-    <h1 itemprop="name">
-      <a class="article-title" href="/2016/05/27/mac/">UNIX 好用滴命令</a>
-    </h1>
-  
-
-      </header>
-      
-    
-    <div class="article-entry" itemprop="articleBody">
-      
-        <h1 id="MAC"><a href="#MAC" class="headerlink" title="MAC"></a>MAC</h1><p>禁止连接wifi自动弹窗认证窗口</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sudo defaults write /Library/Preferences/SystemConfiguration/com.apple.captive.control Active -boolean false</span><br></pre></td></tr></table></figure>
-      
-    </div>
-    
-    <div class="article-info article-info-index">
-      
-      
-	<div class="article-tag tagcloud">
-		<ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/mac/">mac</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/unix/">unix</a></li></ul>
-	</div>
-
-      
-	<div class="article-category tagcloud">
-	<a class="article-category-link" href="/categories/unix/">unix</a>
-	</div>
-
-
-      
-      <div class="clearfix"></div>
-    </div>
-    
-  </div>
-  
-</article>
-
-
-
-
-
-
-
-
-
-  
     <article id="post-mweb" class="article article-type-post" itemscope itemprop="blogPost">
   
     <div class="article-meta">
       <a href="/2016/05/27/mweb/" class="article-date">
-  	<time datetime="2016-05-27T05:10:45.000Z" itemprop="datePublished">2016-05-27</time>
+  	<time datetime="2016-05-27T10:01:41.000Z" itemprop="datePublished">2016-05-27</time>
 </a>
     </div>
   
@@ -283,6 +222,71 @@
         <p class="article-more-link">
           <a  href="/2016/05/27/mweb/#more">more >></a>
         </p>
+      
+      <div class="clearfix"></div>
+    </div>
+    
+  </div>
+  
+</article>
+
+
+
+
+
+
+
+
+
+  
+    <article id="post-mac" class="article article-type-post" itemscope itemprop="blogPost">
+  
+    <div class="article-meta">
+      <a href="/2016/05/27/mac/" class="article-date">
+  	<time datetime="2016-05-27T10:01:41.000Z" itemprop="datePublished">2016-05-27</time>
+</a>
+    </div>
+  
+  <div class="article-inner">
+    
+      <input type="hidden" class="isFancy" />
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="article-title" href="/2016/05/27/mac/">UNIX 好用滴命令</a>
+    </h1>
+  
+
+      </header>
+      
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <h1 id="MAC"><a href="#MAC" class="headerlink" title="MAC"></a>MAC</h1><p><strong>禁止连接wifi自动弹窗认证窗口</strong></p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sudo defaults write /Library/Preferences/SystemConfiguration/com.apple.captive.control Active -boolean false</span><br></pre></td></tr></table></figure>
+<p><strong>连续按键，快速连续触发</strong></p>
+<p>我们在打命令或者编辑文本滴时候，经常会用到方向键，linux 下方向键是非常快滴，运行如下命令，就可以让方向键移动移动速度很快了~</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">defaults write NSGlobalDomain KeyRepeat -int 3</span><br></pre></td></tr></table></figure>
+
+      
+    </div>
+    
+    <div class="article-info article-info-index">
+      
+      
+	<div class="article-tag tagcloud">
+		<ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/mac/">mac</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/unix/">unix</a></li></ul>
+	</div>
+
+      
+	<div class="article-category tagcloud">
+	<a class="article-category-link" href="/categories/unix/">unix</a>
+	</div>
+
+
       
       <div class="clearfix"></div>
     </div>
